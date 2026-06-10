@@ -1,12 +1,14 @@
 public class Recursion {
-    static void p(int n){
+      public static void main(String[] args) {
+        int sum = p(3);
+        System.out.println(sum);
+    
+    }
+    static int p(int n){
         if(n==0){
-            return;
-        }
-        p(n-1);
-        System.out.println(n);
-    }
-    public static void main(String[] args) {
-        p(5);
-    }
+            return 0;
+        } 
+            return n +(n-1);
+   }
 }
+
