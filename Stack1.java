@@ -8,6 +8,12 @@ public class Stack1 {
         st.push(40);
         System.out.println(st);
         System.out.println(st.peek());
-
+        Stack<Integer> st1 = new Stack<>();
+        st1.push(5);
+        st1.push(10);
+        st1.push(20);
+        st1.push(30);
+        st1.push(40);
+        System.out.println(st1);
     }
 }

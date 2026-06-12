@@ -10,6 +10,8 @@ public class Stack2 {
         System.out.println(stack.isEmpty());
         System.out.println(stack.pop());
         System.out.println(stack);
+        System.out.println(stack.search("ramu"));
+        System.out.println(stack.pop());
 
     }
 }
