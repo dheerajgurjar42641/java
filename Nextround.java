@@ -10,8 +10,9 @@ public class Nextround {
             arr[i]=sc.nextInt();
         }
         int count =0;
+        int temp = arr[k-1];
         for(int i=0;i<n;i++){
-            if(arr[i]>k){
+            if(arr[i]>=temp&& arr[i]>0){
                 count++;
             }
         }
